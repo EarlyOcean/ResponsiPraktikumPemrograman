@@ -29,8 +29,8 @@ int main(){
 
         // bandingkan string
         string result;
-        if(s == new_s) result = "String palindrom";
-        else result = "String bukan palindrom";
+        if(s == new_s) result = "Palindrom";
+        else result = "Bukan palindrom";
 
         // hasil test case
         cout << "Expected Output: " << expected_output[ind] << endl;
